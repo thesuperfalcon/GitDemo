@@ -43,9 +43,27 @@ namespace TestSSAB.Pages
                 MaxCapacity = 30
             };
 
+            Models.Storage slot4 = new Storage()
+            {
+                StorageName = "Plats 4",
+                CurrentStock = 0,
+                Created = DateTime.Now,
+                MaxCapacity = 30
+            };
+
+            Models.Storage slot5 = new Storage()
+            {
+                StorageName = "Plats 5",
+                CurrentStock = 0,
+                Created = DateTime.Now,
+                MaxCapacity = 30
+            };
+
             storages.Add(slot1);
             storages.Add(slot2);
             storages.Add(slot3);
+            storages.Add(slot4);
+            storages.Add(slot5);
 
             return storages;
         }
